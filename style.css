@@ -1,12 +1,74 @@
 body {
   font-family: "SF Compact Display", sans-serif;
+  margin: 0;
 }
 
 nav {
-  background-color: #ffff;
-  display: flex;
-  gap: 10px;
-  padding-left: 15px;
-  align-items: center;
   position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background-color: #fff;
+  padding: 8px 15px;
+  z-index: 1000;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 5px;
+}
+
+.box {
+  min-height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  color: white;
+}
+
+.box1 {
+  background: #f5f5f7;
+  color: black;
+}
+.box2 {
+  background: linear-gradient(to bottom, #d4eaf7, #f0f6f8);
+  color: black;
+}
+.box3 {
+  background: linear-gradient(to bottom, #d4eaf7, #f0f6f8);
+  color: black;
+}
+.box4 {
+  background: #000000;
+}
+.box5 {
+  background: #f5f5f7;
+  color: black;
+}
+.box6 {
+  background: #000000;
+}
+
+@media (min-width: 768px) {
+  .box1,
+  .box2 {
+    grid-column: span 2;
+  }
+
+  .box3,
+  .box4,
+  .box5,
+  .box6 {
+    grid-column: span 1;
+  }
+
+  .container {
+    grid-template-columns: 1fr 1fr;
+  }
 }
