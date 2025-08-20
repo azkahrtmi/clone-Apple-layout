@@ -24,12 +24,11 @@ nav {
 }
 
 .box {
-  min-height: 600px;
-  display: flex;
+  min-height: 650px;
+  display: grid;
   justify-content: center;
-  align-items: center;
-  font-size: 2rem;
-  color: white;
+  text-align: center;
+  color: #fff;
 }
 
 .box1 {
@@ -71,4 +70,68 @@ nav {
   .container {
     grid-template-columns: 1fr 1fr;
   }
+}
+
+h2 {
+  font-size: 3.5rem;
+  padding-top: 100px;
+  font-weight: 600;
+}
+
+p {
+  font-size: 2.5rem;
+}
+
+.tagline {
+  font-size: 1.5rem;
+}
+
+.box h2,
+.box p {
+  margin: 0;
+}
+
+.box .content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.buttons {
+  display: flex;
+  gap: 20px;
+}
+
+.button1 {
+  background-color: #0071e3;
+  color: #fff;
+  border-color: #0071e3;
+}
+
+.button2 {
+  color: #0071e3;
+  border-color: #0071e3;
+}
+
+button {
+  border-radius: 50px;
+  font-size: 1.5rem;
+  padding: 10px 10px;
+  border-style: solid;
+}
+
+.tagline {
+  background: linear-gradient(90deg, #0f7efd, #724ae0, #b93b06);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+
+.box1 img {
+  width: 100%;
+  height: auto;
+  margin-top: auto;
+  display: block;
 }
