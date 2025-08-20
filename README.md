@@ -33,8 +33,8 @@ It is built for learning purposes, focusing on responsive design, clean structur
 
 ## 📸 Screenshots
 
-![alt text](image-1.png)
-![alt text](image-2.png)
+![alt text](/assets/image-1.png)
+![alt text](/assets/image-2.png)
 
 ---
 
