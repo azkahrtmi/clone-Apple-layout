@@ -18,7 +18,9 @@ It is built for learning purposes, focusing on responsive design, clean structur
 ## 📂 Project Structure
 
 ├── index.html
+
 ├── style.css
+
 └── assets/
 
 ---
